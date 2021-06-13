@@ -1,0 +1,1 @@
+# sigal-plugins-search
