@@ -54,7 +54,7 @@ def generate_search(gallery):
             data['mime'] = item.mime
             if 'slides' in item.meta:
                 data['slides'] = item.meta['slides'][0]
-            data['albums'] = album_titles;
+            data['album'] = album_titles;
             store[str(id)] = data
             id = id + 1
 
