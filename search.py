@@ -1,5 +1,5 @@
 from functools import reduce
-from jinja2 import Markup
+from markupsafe import Markup
 import json
 import logging
 import os
